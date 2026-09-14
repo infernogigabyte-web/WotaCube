@@ -1,36 +1,36 @@
-# 🧩 WotaCube — Smart Speedcubing Timer
+# 🧩 WotaCube
 
-**WotaCube** is a modern, cross-platform speedcubing application built with **Electron**. It combines a professional timer, an algorithm trainer, and detailed statistics — all in one clean and intuitive interface.
+**WotaCube** is an Electron-based speedcubing application. It features a dedicated timer, an algorithm trainer, and statistics — all in one place.
 
 ---
 
 ## ✨ Features
 
-### ⏱️ Professional Timer
-* **Intuitive Control:** Press and hold the Spacebar (on desktop) or the screen (on mobile) to inspect/activate, release to start the inspection/solve, and press any key to stop.
-* **Quick Action Panel:** Right after your solve, a handy pop-up allows you to instantly apply a `+2` penalty, mark it as `DNF`, or delete the time.
-* **Accidental Delete Protection:** Accidentally deleted a great solve? Undo your last action with a single click.
+### ⏱️ Timer Control
+* Hold the timer to activate it (or hold the **Spacebar** on your computer). 
+* Release to start the timer, and press again to stop.
+* Easily swipe left or right to switch tabs.
 
-### 📊 Sessions & Statistics
-* **Custom Sessions:** Create separate, independent sessions for different puzzles (3x3, 4x4, OH) or specific training routines.
-* **Live Progress Tracking:** Your current `ao5`, `ao12`, and Personal Best (PB) are always visible on the main dashboard.
-* **Deep Analytics:** Visualize your improvement over time with detailed charts, graphs, and a full solve history.
+### ⚡ Quick Panel
+Right after a solve, a quick panel pops up allowing you to:
+* Delete the result.
+* Mark it as `+2` or `DNF`.
+* Close the panel.
+* **Undo feature:** Accidentally deleted a result? You can undo the action with a single click.
 
-### ⚙️ Make It Yours
-* Fully customizable interface with various themes and accent colors.
-* Dedicated Blindfolded (**BLD**) mode.
-* Immersive full-screen mode, haptic vibration feedback, and support for **6 languages**.
+### 📊 Sessions & Stats
+* Create separate sessions for different puzzles or training styles.
+* Your `ao5`, `ao12`, and Personal Best (PB) are always visible.
+* Complete statistics with progress charts.
+
+### ⚙️ Customization
+Make the app yours in the Settings section:
+* Themes and accent colors.
+* BLD mode.
+* Full-screen mode.
+* Vibration feedback.
+* Support for **6 languages**.
 
 ---
 
-## 🛠️ Built With
-This application leverages modern web technologies:
-* **Electron** — for a lightweight and responsive desktop experience.
-* **Node.js & NPM** — for dependency management and building the app.
-
----
-
-## ⚖️ License
-This project is licensed under the **GNU General Public License v3.0 (GNU GPLv3)**. This ensures that the code remains open-source and protected for the community.
-
-*Good luck chasing your new PB!* 🚀
+*Good luck chasing your PB!* 🚀
